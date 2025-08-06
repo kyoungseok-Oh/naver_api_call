@@ -10,6 +10,8 @@ def call_api(keyword):
     print(res)
     r = res.json()
     print(len(r['items']))
-
+    #r = res.json()
+    #for item in r['items']:
+        #print(item)
 if __name__ == '__main__':
     call_api("교대역 병원")
